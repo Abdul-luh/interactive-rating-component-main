@@ -32,13 +32,17 @@ body {
 	font-family: var(--Body-Font);
 	background-color: var(--Very-Dark-Blue);
 	color: var(--Light-Grey);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
 }
 .card1,
 .card2 {
 	padding: 2rem;
 	border-radius: 10px;
-	width: 85vmin;
-	margin: 20% auto;
+	max-width: 20rem;
+	margin: auto;
 	background: var(--Dark-Blue);
 	line-height: 1.25rem;
 }
